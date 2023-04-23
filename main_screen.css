@@ -1,13 +1,10 @@
 .row {
-    margin: 0px;
-
-
+    /* margin: 0px; */
 }
 
 
 
 #right_screen {
-    /* background-color: blue; */
     position: absolute;
     top: 0px;
     right: 0px;
@@ -19,7 +16,7 @@
 
 
 #corrent_chat_name_area {
-    background-color: yellow;
+    background-color: cornsilk;
     height: 80px;
     align-items: center;
     display: flex;
@@ -59,7 +56,7 @@
 
 }
 
-.bubble-row{
+.bubble_row{
     background-color: black;
 
     
@@ -67,32 +64,28 @@
 }
 
 .bubble{
-    /* position: relative; */
-    /* width: min-content; */
+    width: min-content;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    text-align: left;
+
 }
 
 .bubble_first{
     margin-top: auto;
-    height: min-content;
 }
 
 .bubble_left{
-    text-align: left;
-    width: min-content;
     background-color: aqua;
-
-
 
 }
 
 .bubble_right{
-    position: relative;
-    text-align: right;
+    float: right;
     
-    /* width: min-content; */
     background-color: firebrick;
-
-
+    
 
 }
 
