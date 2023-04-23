@@ -27,8 +27,8 @@
 #corrent_chat_name_area>img {
     border-radius: 50%;
     position: relative;
-    width: auto;
-    height: 70%; 
+    width: 60px;
+    height: 60px; 
     margin-left: 5px;
     bottom: 0px;
     top: 0px;
@@ -155,10 +155,10 @@
 }
 
 #my_name_area>img {
-    border-radius: 20%;
+    border-radius: 100%;
     position: relative;
-    width: auto;
-    height: 70%; 
+    width: 60px;
+    height: 60px;
     margin-left: 10px;
     bottom: 0px;
     top: 0px;
@@ -214,10 +214,11 @@
 }
 
 .chat_tile>img {
-    border-radius: 50%;
+    border-radius: 100%;
     position: relative;
-    width: auto;
-    height: 70%; 
+    width: 40px;
+    height: 40px; 
+    /* max-height: 60%; */
     margin-left: 5px;
     bottom: 0px;
     top: 0px;

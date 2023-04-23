@@ -37,3 +37,7 @@ input{
 .btn{
     font-family: 'Gill Sans';
 }
+
+.row>img {
+    width: 200px;
+}
