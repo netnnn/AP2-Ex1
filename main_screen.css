@@ -317,6 +317,7 @@ img {
     margin-top: 0.4%;
     width: fit-content;
     display: inline-block;
+    word-break: break-all;
     /* flex-direction: column; */
 
 
