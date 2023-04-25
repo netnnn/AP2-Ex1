@@ -17,6 +17,14 @@ img {
     padding: 0px;
 }
 
+.logout {
+    position: relative;
+    right: 1%;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+
 
 
 #corrent_chat_name_area {
