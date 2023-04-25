@@ -1,14 +1,15 @@
 #upperBlock {
     background-color: #00a884;
-    height: 22vh;
+    position: relative;
+    height: 22%;
     width: 100%;
     z-index: -1;
 }
 
 #lowerBlock {
     width: 100%;
-    height: 78vh;
-    top: 30%;
+    height: 75.7vh;
+    position: relative;
     z-index: -1;
     background-color: #111b21
 }
@@ -17,9 +18,8 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    bottom: 10%;
+    bottom: 0px;
     right: 0px;
-
     margin: auto;
 
     height: fit-content;
@@ -39,7 +39,7 @@
 }
 
 .col-form-label{
-    font-size: x-large;
+    font-size: larger;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
@@ -60,7 +60,7 @@ input{
 }
 
 .row>img {
-    width: 200px;
+    width: 30%;
 }
 
 .btn-success {
