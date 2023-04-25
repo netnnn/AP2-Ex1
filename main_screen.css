@@ -70,6 +70,7 @@ img {
     border-style: solid;
     border-top-color: #b0b0b049;
 
+    overflow: auto;
 
 }
 
@@ -242,6 +243,7 @@ img {
     bottom: 0px;
     top: 80px;
     width: 100%;
+
 
 }
 
