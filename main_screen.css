@@ -264,7 +264,7 @@ img {
     top: 0px;
 }
 
-.chat_tile>.friend_name{
+.chat_tile>.friend_name_and_last{
     font-family: sans-serif;
     font-size: x-large;
     position: relative;
@@ -272,7 +272,14 @@ img {
     margin-left: 5%;
     color: rgb(223, 223, 223);
     font-family: serif;
+    height: 100%;
 
+}
+
+
+.last_msg{
+    font-size: small;
+    color: #dededead;
 }
 
 .chat_tile>.friend_time{
