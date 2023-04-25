@@ -25,8 +25,9 @@
             <div id="my_name_area" class="">
                 <img src="https://bleedingcool.com/wp-content/uploads/2021/01/JoJos-Bizarre-Adventure-Giorno-Giovanna-900x900.jpg">
                 <span id="my_name">L</span>
-                <button class="btn btn-dark btn-lg"><i class="bi bi-person-add"></i></button>
+                <button id="add_button" type="button" class="btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#add_new_contact_modal" aria-hidden="true"><i class="bi bi-person-add"></i></button>
             </div>
+            <!-- #type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" -->
 
             <div id="my_chats_area">
                 <div  class="chat_tile ">
@@ -60,18 +61,6 @@
             </div>
 
             <div id="chat_area">
-                <!-- <div class="bubble_row bubble_first">
-                    <div class="bubble bubble_left">
-                        <div class="bubble_text">hello</div>
-                        <span class="bubble_time">15:30</span>
-                    </div>
-                </div>
-                <div class="bubble_row ">
-                    <div class="bubble bubble_right">
-                        <div class="bubble_text">hiiiiiii</div>
-                        <span class="bubble_time">15:30</span>
-                    </div>
-                </div> -->
                 <div class="message_row mine">
                     <div class=" message">
                          <span class="bubble_time">15:30</span>
@@ -105,6 +94,28 @@
             </div>
         </div>
     </div>
+
+
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="add_new_contact_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Add new contact</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <input type="text" placeholder="Contact's identifier">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Add contact</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
     <!-- <script src="" async defer></script> -->
