@@ -69,7 +69,7 @@ input{
 }
 
 #logo {
-    position: absolute;
-    right: 25vh;
-    top: 2vh;
+    position: relative;
+    left: 79%;
+    top: 16%;
 }
