@@ -105,10 +105,8 @@ img {
     position: relative;
     height: 80%;
     margin: 5px;
-    /* width: 90%; */
     border-radius: 15pt;
-    /* left: 4%;     */
-    /* display: inline; */
+    padding-left: 2.3%;
 
 }
 
@@ -319,6 +317,7 @@ img {
     margin-top: 0.4%;
     width: fit-content;
     display: inline-block;
+    word-break: break-all;
     /* flex-direction: column; */
 
 
